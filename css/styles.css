@@ -325,16 +325,18 @@ body {
   position: absolute;
   bottom: 0;
   left: 0;
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  padding: 27px 85px;
+  padding: 27px;
   width: 100%;
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--primary-white-color);
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
 }
 
 .team {
@@ -378,10 +380,12 @@ body {
   margin-bottom: 10px;
 }
 .description {
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
+  padding-bottom: 16px;
 }
 
 .team-item-icons {
@@ -542,10 +546,12 @@ body {
 }
 
 .footer-social {
+  color: var(--primary-white-color);
+  font-weight: bold;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
   margin-bottom: 20px;
 }
 
